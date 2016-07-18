@@ -1,6 +1,6 @@
 # Songwriter-Helper
 <p align="center">
-  <img src ="http://career.iresearchnet.com/wp-content/uploads/2015/03/Songwriter.jpg" style="border-radius:20px; width:200px;/>
+  <img src ="http://career.iresearchnet.com/wp-content/uploads/2015/03/Songwriter.jpg"/>
 </p>
 
 
