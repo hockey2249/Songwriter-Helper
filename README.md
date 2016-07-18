@@ -13,9 +13,10 @@ Potential (and very hopeful!) “stretch” functionalities include:
 </ul>
 <h2>Technical Info:</h2>
 This app will use ActiveRecord to store information about songs (title, date created, etc.) and song sections (chords, lyrics, etc.). Ruby/ERB will be used to write the logic behind this app, and Bootstrap and other custom CSS will be integrated for beautiful buttons, modals, and a clean layout. An external guitar chord API will be accessed.
+GET, PUT, POST, and DELETE routes are all relevant to individual songs (on the "home" page), chords, and lyrics. As stated earlier, a user will be able to add, remove, and change all visible aspects of their project.
 <hr>
 Trello Board: https://trello.com/b/n4oHSg7j/songwriter-helper
 
-<center>Wireframe:
+Wireframe:
 
-![Wireframe for Prject](https://s32.postimg.org/k3k80vs4l/songwriterwire.jpg)</center>
+![Wireframe for Prject](https://s32.postimg.org/k3k80vs4l/songwriterwire.jpg)
