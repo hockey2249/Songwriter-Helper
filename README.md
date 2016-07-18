@@ -10,7 +10,7 @@ Additionally, each section includes a text box where the songwriter can enter an
 
 Potential (and very hopeful!) “stretch” functionalities include:
 <ul>
-	<li>A playback feature, where a tempo is set and the chords play chronologically to a generic guitar strumming pattern<li>
+	<li>A playback feature, where a tempo is set and the chords play chronologically to a generic guitar strumming pattern</li>
 	<li>The ability to transpose an individual chord or entire project to a different key</li>
 	<li>Swiping and fading CSS animations as a user edits a project</li>
 	<li>Pre-made song templates based off of the most common and versatile chord progressions</li>
