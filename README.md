@@ -4,7 +4,7 @@
 </p>
 
 
-Songwriter Helper is a full-stack Sinatra app that helps songwriters organize their musical projects. A user can create multiple projects/songs, then add a series of guitar chords (complete with a chord chart image) to custom sections — verse 1, chorus, bridge, etc.
+Songwriter Helper is a full-stack Sinatra app that helps songwriters organize their musical projects. A user can create multiple projects/songs, then add a series of guitar chords (complete with chord chart images) to custom sections — verse 1, chorus, bridge, etc.
 
 Additionally, each section includes a text box where the songwriter can enter and edit lyrics.
 
