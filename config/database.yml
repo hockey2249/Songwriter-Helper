@@ -1,0 +1,6 @@
+
+development:
+ adapter: postgresql
+ database: songwriterhelper
+production:
+ url: <%= ENV['DATABASE_URL'] %>

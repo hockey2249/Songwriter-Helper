@@ -2,5 +2,13 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
-require './songwriter_helper'
+
+#Models
+require './models/project'
+
+
+#Controllers
+require './app'
+
+
 run SongwriterHelper 
