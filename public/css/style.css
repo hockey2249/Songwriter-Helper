@@ -4,18 +4,3 @@ header nav {
   height: 60px;
   line-height: 60px;
 }
-
-
-header nav ul li {
-  display: inline;
-  list-style-type: none;
-  height: 60px;
-  line-height: 60px;
-  float: right;
-  padding: 0 10px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
