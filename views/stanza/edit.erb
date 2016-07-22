@@ -1,0 +1,12 @@
+<form action="/stanza/<%=@stanza.id%>" method="post">
+    <input type="hidden" name="_method" value="PUT" /> 
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" value="<%=@stanza.chord%>">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]" value="<%=@stanza.lyrics%>">
+
+    <input type="hidden" name="stanza[section]" value ="<%=@stanza.section%>">
+
+    <input type="submit" value="Update"> 
+</form>

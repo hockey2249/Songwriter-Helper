@@ -1,6 +1,12 @@
+header {
+	background-color: grey;
+}
+
 header nav { 
   max-width: 960px;
   margin: 0 auto;
   height: 60px;
   line-height: 60px;
+  display: inline;
+  list-style-type: none;
 }

@@ -5,6 +5,7 @@ Bundler.require
 
 #Models
 require './models/project'
+require './models/stanza'
 
 
 #Controllers

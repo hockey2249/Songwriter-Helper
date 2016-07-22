@@ -1,0 +1,119 @@
+<h1><%= @project.name %></h1>
+
+<div>
+  <h2>Intro</h2>
+  <% @stanzas.each do |stanza| %>
+    <%if stanza.section == 'intro'%>
+      <%=stanza.chord%>
+      <%=stanza.lyrics%>
+    <%end%>
+  <%end%>
+  <form action="/project/<%=@project.id%>/stanzas" method="post">
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" placeholder="Amin, C7, etc.">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]">
+
+    <input type="hidden" name="stanza[section]" value ="intro">
+
+    <input type="submit" value="Add"> 
+  </form>
+</div>
+
+
+<div>
+  <h2>Verse</h2>
+
+  <% @stanzas.each do |stanza| %>
+    <%if stanza.section == 'verse'%>
+      <%=stanza.chord%>
+      <%=stanza.lyrics%>
+      <a href="/stanza/<%=stanza.id%>/edit">Edit</a>
+    <%end%>
+  <%end%>
+  <form action="/project/<%=@project.id%>/stanzas" method="post">
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" placeholder="Amin, C7, etc.">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]">
+
+    <input type="hidden" name="stanza[section]" value ="verse">
+
+    <input type="submit" value="Add"> 
+  </form>
+
+</div>
+
+<div>
+  <h2>Chorus</h2>
+
+  <% @stanzas.each do |stanza| %>
+    <%if stanza.section == 'chorus'%>
+      <%=stanza.chord%>
+      <%=stanza.lyrics%>
+      <a href="/stanza/<%=stanza.id%>/edit">Edit</a>
+    <%end%>
+  <%end%>
+  <form action="/project/<%=@project.id%>/stanzas" method="post">
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" placeholder="Amin, C7, etc.">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]">
+
+    <input type="hidden" name="stanza[section]" value ="chorus">
+
+    <input type="submit" value="Add"> 
+  </form>
+<div>
+
+<div>
+  <h2>Bridge</h2>
+
+  <% @stanzas.each do |stanza| %>
+    <%if stanza.section == 'bridge'%>
+      <%=stanza.chord%>
+      <%=stanza.lyrics%>
+      <a href="/stanza/<%=stanza.id%>/edit">Edit</a>
+    <%end%>
+  <%end%>
+  <form action="/project/<%=@project.id%>/stanzas" method="post">
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" placeholder="Amin, C7, etc.">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]">
+
+    <input type="hidden" name="stanza[section]" value ="bridge">
+
+    <input type="submit" value="Add"> 
+  </form>
+</div>
+
+
+<div>
+  <h2>Outro</h2>
+
+  <% @stanzas.each do |stanza| %>
+    <%if stanza.section == 'outro'%>
+      <%=stanza.chord%>
+      <%=stanza.lyrics%>
+      <a href="/stanza/<%=stanza.id%>/edit">Edit</a>
+    <%end%>
+  <%end%>
+  <form action="/project/<%=@project.id%>/stanzas" method="post">
+    <label for="stanza[chord]">Chord</label>
+    <input name="stanza[chord]" placeholder="Amin, C7, etc.">
+
+    <label for="stanza[lyrics]">Lyrics</label>
+    <input name="stanza[lyrics]">
+
+    <input type="hidden" name="stanza[section]" value ="outro">
+
+    <input type="submit" value="Add"> 
+  </form>
+<div>
+
+
