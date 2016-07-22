@@ -3,10 +3,24 @@ header {
 }
 
 header nav { 
-  max-width: 960px;
+  width:100%;
   margin: 0 auto;
   height: 60px;
-  line-height: 60px;
-  display: inline;
-  list-style-type: none;
+  line-height: 40px;
+  display: inline-block;
+  float:left;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }

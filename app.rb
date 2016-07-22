@@ -2,11 +2,6 @@ class SongwriterHelper < Sinatra::Base
 
 	set :method_override, true
 
-  # General route actions
-  # get '/' do
-  #   erb :home
-  # end
-
   get '/about' do
     erb :about
   end
@@ -62,9 +57,6 @@ end
   end
 
   put '/stanza/:id' do
-  	# @stanza.project = @project
-  	
-  	# @project = Project.find(params[:id])
   	@stanza = Stanza.find(params[:id])
   	@stanza.chord = params[:stanza][:chord]
   	@stanza.lyrics = params[:stanza][:lyrics]
